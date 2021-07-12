@@ -4,7 +4,7 @@ Soil API: https://www.getambee.com/api/soil
 
 Docs: https://docs.ambeedata.com/
 
-API key: 611cbc07cc9a7a84ce8d53cbf4e4a74fb32889b7894cb0fea32c9a48d02b5b16
+API key: 95d37bc2b153f114c7e829d482dbd6156d3fc48df1c4133bdfdf3bae33643037
 
 Weather API: https://openweathermap.org/api
 
