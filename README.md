@@ -11,3 +11,15 @@ Password: Ambee123!
 Weather API: https://openweathermap.org/api
 
 Plant ID Docs: https://github.com/Plant-id/Plant-id-API
+
+### Data Collected from Soil API
+- Soil Temperature (double)
+- Soil Moisture (int)
+
+- Pollutant (string)
+- Concentration (double)
+- Category (string)
+
+- Grass Pollen Count (int)
+- Grass Pollen Rist (string)
+**(SAME FOR TREE POLLEN AND WEED POLLEN)**
