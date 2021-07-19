@@ -1,10 +1,11 @@
 ## APIs
 
 
-Real soil APi key: 05928d64d3c3463b93a289b8def76ea1	
- Real Soil API key: https://api.weatherbit.io/v2.0/history/agweather?lat=38.0&lon=-78.0&start_date=2021-07-15&end_date=2021-07-16&key=API_KEY
+Soil API key: 05928d64d3c3463b93a289b8def76ea1	
 
+Soil API URL: https://api.weatherbit.io/v2.0/history/agweather?lat=38.0&lon=-78.0&start_date=2021-07-15&end_date=2021-07-16&key=API_KEY
 
+- Old Soil API Key
 
 Soil API: https://www.getambee.com/api/soil
 
