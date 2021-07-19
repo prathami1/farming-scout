@@ -1,5 +1,6 @@
 ## APIs
 
+https://www.weatherbit.io/api/ag-weather-api
 
 Soil API key: 05928d64d3c3463b93a289b8def76ea1	
 
