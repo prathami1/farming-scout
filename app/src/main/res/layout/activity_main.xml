@@ -20,19 +20,19 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/dashboardtext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:textColor="#FFFFFF"
-                android:text="Covid 19 Dashboard"
-                android:id="@+id/dashboardtext" />
+                android:text="Welcome to Farming Scout!"
+                android:textColor="@color/teal_200"
+                android:textSize="22sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/dashboardtext"
                 android:layout_marginTop="6dp"
-                android:text="2 Items"
+                android:text="By Pratham Inamdar, Aayush Srivastava, and Nihal Nooney"
                 android:textColor="#52BAFF"
                 android:textSize="14sp" />
 
@@ -61,6 +61,7 @@
                 app:cardElevation="6dp">
 
                 <LinearLayout
+                    android:id="@+id/farmingButton"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -68,7 +69,7 @@
                     android:padding="16dp">
 
                     <ImageView
-                        android:id="@+id/VaccinationCenter"
+                        android:id="@+id/Classification"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         app:srcCompat="@drawable/question"
@@ -78,7 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Hospital"
+                        android:text="Classify"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -94,14 +95,15 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/soilButton"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
                     <ImageView
-                        android:id="@+id/Registration"
+                        android:id="@+id/Shovel"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         app:srcCompat="@drawable/shovel"
@@ -111,7 +113,41 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Registration"
+                        android:text="Shovel"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weatherbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/weatherButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/WeatherPrediction"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:srcCompat="@drawable/weather"
+                        tools:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Weather"
                         android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

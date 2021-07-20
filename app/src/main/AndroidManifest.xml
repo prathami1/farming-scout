@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FarmingScout">
         <activity
-            android:name=".weatherActivity"
-            android:exported="true" />
-        <activity
             android:name=".soilActivity"
             android:exported="true" />
         <activity
