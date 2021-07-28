@@ -1,0 +1,35 @@
+{
+  "name": "gooddata-ui-examples",
+  "version": "1.0.0",
+  "description": "GoodData.UI SDK - Interactive Examples",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@gooddata/sdk-backend-base": "^8.5.0",
+    "@gooddata/sdk-backend-bear": "^8.5.0",
+    "@gooddata/sdk-model": "^8.5.0",
+    "@gooddata/sdk-ui": "^8.5.0",
+    "@gooddata/sdk-ui-charts": "^8.5.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "upgrade-sdk": "yarn upgrade --latest --caret -P '@gooddata/(reference-|api-|sdk-|util)'"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:5000"
+}
