@@ -35,3 +35,8 @@ Below are screenshots of the Application while in use, highlighting it's easy to
 - Google Geocoding
 - Python
 - Tensorflow
+
+## Authors
+- Pratham Inamdar
+- Aayush Srivastava
+- Nihalraj Nooney
