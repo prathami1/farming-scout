@@ -8,4 +8,7 @@ With this identification, farmers can better understand the ecosystem around the
 ## Our Inspiration
 Many farmers today are unable to cope with the overwhelming surge of technology. In order to combat this, we've developed a user-friendly companion for farmers in order to help them with their craft and aid them in the path of embracing technology. Farming Scout's various uses and purposes make them the ideal companion for farmers.
 
-# Application in Action
+## Application in Action
+|  Dashboard               | Image Classification       |  Selecting Images         | Managing Tasks
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![scene1](images/img1.png) | ![scene2](images/img2.png) | ![scene3](images/img3.png) | ![scene2](images/img4.png)
