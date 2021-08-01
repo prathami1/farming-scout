@@ -37,6 +37,6 @@ Below are screenshots of the Application while in use, highlighting it's easy to
 - Tensorflow
 
 ## Authors
-- Pratham Inamdar
-- Aayush Srivastava
-- Nihalraj Nooney
+- [Pratham Inamdar](https://github.com/prathami1)
+- [Aayush Srivastava](https://github.com/aayushsrivastava1)
+- [Nihalraj Nooney](https://github.com/nihalnooney)
